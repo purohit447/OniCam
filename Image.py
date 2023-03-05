@@ -1,6 +1,7 @@
-# importing the libraries
+
 import cv2
 import numpy as np
+import os
 
 def Open_Img(file_name):
     image = cv2.imread(file_name)  # Reading Image
